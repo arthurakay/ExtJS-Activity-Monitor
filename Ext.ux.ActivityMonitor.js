@@ -1,3 +1,11 @@
+/**
+ * @class Ext.ux.ActivityMonitor
+ * @author Arthur Kay (http://www.akawebdesign.com)
+ * @singleton
+ * @version 1.0
+ *
+ * GitHub Project: https://github.com/arthurakay/ExtJS-Activity-Monitor
+ */
 Ext.define('Ext.ux.ActivityMonitor', {
     singleton   : true,
 
