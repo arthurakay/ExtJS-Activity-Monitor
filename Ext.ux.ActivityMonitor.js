@@ -27,7 +27,7 @@ Ext.define('Ext.ux.ActivityMonitor', {
             ui         : Ext.getBody(),
             task       : {
                 run      : this.monitorUI,
-                interval : this.interval,
+                interval : config.interval || this.interval,
                 scope    : this
             }
         });
